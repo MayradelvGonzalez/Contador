@@ -1,0 +1,64 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: 0;
+}
+body{
+    background-color:rgb(179, 177, 170);
+}
+
+#box {
+    background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1)), url(./img.jpeg);
+    background-color: green;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 6rem 0;
+    margin: 4rem 1rem;
+    font-style: oblique;
+    border-radius: 1em;
+    animation: bounce; 
+    animation-duration: 3s; 
+    
+
+ 
+  }
+  h1{
+    animation: bounce; 
+    animation-duration: 3s;
+    animation-delay: 0.2s;
+     
+  }
+
+
+
+
+.menor{
+    color: hotpink;
+  
+}
+.cero{
+    color: blue;
+}
+.mayor{
+    color: rgb(130, 190, 8);
+    
+}
+
+button {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 2rem 3rem;
+    border-radius:1rem;
+}
+button:hover{
+    background-color: #4CAF50; 
+    color: white;
+    
+}
+
+
+ 
